@@ -18,4 +18,14 @@ public class App {
     public static String hello() {
         return "Hello World!";
     }
+
+    /**
+     * @author Ethan Besse
+     * Fonction hello(String) qui retourne le paramètre reçu.
+     * @param String
+     * @return String
+     */
+    public static String hello(String str){
+        return str;
+    }
 }
