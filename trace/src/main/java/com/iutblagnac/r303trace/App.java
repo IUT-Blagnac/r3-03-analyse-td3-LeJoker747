@@ -10,12 +10,22 @@ public class App {
         System.out.println(hello());
     }
 
+    /**
+     * @author Ethan Besse
+     * Méthode hello() n'attendant pas de paramètres et retourne un String. 
+     * @return String "Hello World!"
+     */
     public static String hello() {
         return "Hello World!";
     }
 
-    public static String hello(String param) {
-        return param;
+    /**
+     * @author Ethan Besse
+     * Fonction hello(String) qui retourne le paramètre reçu.
+     * @param String
+     * @return String
+     */
+    public static String hello(String str){
+        return str;
     }
-
 }
